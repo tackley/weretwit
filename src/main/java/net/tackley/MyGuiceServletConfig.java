@@ -9,7 +9,6 @@ import net.tackley.weretwit.controller.MainController;
 public class MyGuiceServletConfig extends GuiceServletContextListener {
 
 	public MyGuiceServletConfig() {
-		GuiceDebug.enable();
 	}
 
 	@Override
