@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="Maven: com.google.inject:guice:2.0">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/google/inject/guice/2.0/guice-2.0.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/com/google/inject/guice/2.0/guice-2.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar:///home/graham/Download/guice-2.0-src.zip!/guice-2.0-src/src" />
+      <root url="jar://$MAVEN_REPOSITORY$/com/google/inject/guice/2.0/guice-2.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

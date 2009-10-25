@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="were-checker:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="were-checker-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="were-checker:war exploded" />
+    </root>
+  </artifact>
+</component>
