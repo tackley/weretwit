@@ -38,21 +38,21 @@
 				<version>6.1.10</version>
 
 				<configuration>
-				   <systemProperties>
-				     <systemProperty>
-				       <name>logback.configurationFile</name>
-				       <value>./src/etc/logback.xml</value>
-				     </systemProperty>
-				   </systemProperties>
-				 </configuration>
-				 <dependencies>
-				   <dependency>
-				     <groupId>ch.qos.logback</groupId>
-				     <artifactId>logback-classic</artifactId>
-				     <version>0.9.15</version>
-				   </dependency>
-				 </dependencies>
-				
+					<systemProperties>
+						<systemProperty>
+							<name>logback.configurationFile</name>
+							<value>./src/etc/logback.xml</value>
+						</systemProperty>
+					</systemProperties>
+				</configuration>
+				<dependencies>
+					<dependency>
+						<groupId>ch.qos.logback</groupId>
+						<artifactId>logback-classic</artifactId>
+						<version>0.9.15</version>
+					</dependency>
+				</dependencies>
+
 			</plugin>
 
 		</plugins>
@@ -89,12 +89,34 @@
 			<version>4.7</version>
 			<scope>test</scope>
 		</dependency>
+
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-webmvc</artifactId>
+			<version>3.0.0.RC1</version>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-web</artifactId>
+			<version>3.0.0.RC1</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.freemarker</groupId>
+			<artifactId>freemarker</artifactId>
+			<version>2.3.15</version>
+		</dependency>
 	</dependencies>
 
 	<repositories>
 		<repository>
 			<id>google</id>
-			<url>http://google-maven-repository.googlecode.com/svn/repository</url>
+			<url>http://google-maven-repository.googlecode.com/svn/repository.springframework.org/milestone</url>
+		</repository>
+
+		<repository>
+			<id>spring-milestone</id>
+			<url>http://maven.springframework.org/milestone</url>
 		</repository>
 
 	</repositories>
